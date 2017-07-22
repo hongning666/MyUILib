@@ -1,0 +1,37 @@
+﻿生成启动时间为 2017/7/22 1:52:09。
+     1>项目“E:\win32\QUISkin\QUISkin\QUISkin.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D QUISKIN_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\QUISkin.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt QUITab.cpp
+         QUITab.cpp
+     1>e:\win32\quiskin\quiskin\uielement.h(75): warning C4251: “CUIElement::m_strID”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“CUIElement”的客户端使用
+     1>e:\win32\quiskin\quiskin\uielement.h(79): warning C4251: “CUIElement::m_strCaption”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“CUIElement”的客户端使用
+     1>e:\win32\quiskin\quiskin\uielement.h(81): warning C4251: “CUIElement::m_strBgImage”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“CUIElement”的客户端使用
+     1>e:\win32\quiskin\quiskin\uielement.h(86): warning C4251: “CUIElement::m_strFont”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“CUIElement”的客户端使用
+     1>e:\win32\quiskin\quiskin\uielement.h(88): warning C4251: “CUIElement::m_strToolTips”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“CUIElement”的客户端使用
+     1>e:\win32\quiskin\quiskin\quibutton.h(36): warning C4251: “CQUIButton::m_strStateImage”: class“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”需要有 dll 接口由 class“CQUIButton”的客户端使用
+     1>e:\win32\quiskin\quiskin\quitab.h(53): warning C4251: “CQUITab::m_tTabs”: class“std::map<int,CQUITab::TTabItem,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“CQUITab”的客户端使用
+                 with
+                 [
+                     _Kty=int
+         ,            _Ty=CQUITab::TTabItem
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\Debug\QUISkin.dll" /INCREMENTAL /NOLOGO gdiplus.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\Bin\Debug\QUISkin.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\lib\Debug\QUISkin.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\QUIButton.obj
+         Debug\QUIEdit.obj
+         Debug\QUIListcpp.obj
+         Debug\QUIScrollBar.obj
+         Debug\QUISkin.obj
+         Debug\QUIStaticText.obj
+         Debug\QUITab.obj
+         Debug\QUITree.obj
+         Debug\QUIWnd.obj
+         Debug\stdafx.obj
+         Debug\UIElement.obj
+            正在创建库 ..\lib\Debug\QUISkin.lib 和对象 ..\lib\Debug\QUISkin.exp
+         QUISkin.vcxproj -> E:\win32\QUISkin\QUISkin\..\Bin\Debug\QUISkin.dll
+     1>已完成生成项目“E:\win32\QUISkin\QUISkin\QUISkin.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.46
